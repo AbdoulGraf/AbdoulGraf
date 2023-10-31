@@ -119,6 +119,11 @@ h6 {
   font-weight: 700;
 }
 
+.cercle_org{
+  list-style-type:circle;
+  font-size: 16px;
+}
+
 .section-title {
   position: relative;
   margin-bottom: 50px;
@@ -5838,7 +5843,7 @@ ul.time-work {
   width: 17px;
   height: 17px;
   margin-right: 14px;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolyline fill='none' stroke='%23efb007' stroke-width='1.1' points='4,10 8,15 17,4'%3E%3C/polyline%3E%3C/svg%3E");
+  background-image: url("../img/hizmetlerimiz/okSymbol.svg");
   content: '';
 }
 
