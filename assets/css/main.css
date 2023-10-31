@@ -103,6 +103,12 @@ body {
   line-height: 1.56;
 }
 
+.about_contactt{
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+}
+
 h1,
 h2,
 h3,
@@ -5214,10 +5220,10 @@ ul.time-work {
 
 .widjet__title::before {
   display: inline-block;
-  width: 22px;
+  width: 40px;
   height: 30px;
   margin-right: 10px;
-  background-image: url(https://pro-theme.com/html/suprek/assets/img/svgico/logo-icon.svg);
+  background-image: url('../img/icon.png');
   content: '';
 }
 
@@ -5684,10 +5690,10 @@ ul.time-work {
 
 .equipment-widjet-title:before {
   display: inline-block;
-  width: 22px;
+  width: 40px;
   height: 30px;
   margin-right: 10px;
-  background-image: url(https://pro-theme.com/html/suprek/assets/img/svgico/logo-icon.svg);
+  background-image: url('../img/icon.png');
   content: '';
 }
 
@@ -6018,7 +6024,8 @@ ul.time-work {
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 30px 20px;
-  border: 1px solid #eee;
+  /* border: 1px solid #eee; */
+  border: none;
   border-bottom: none;
   background-color: #ffffff;
   text-align: center;
